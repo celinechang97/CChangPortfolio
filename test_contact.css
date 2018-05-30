@@ -1,0 +1,54 @@
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+/*
+.top{
+	width:100px;
+	height: 100px;
+	background-color: white;
+}
+*/
+
+#logo{
+	margin-top:2%;
+	margin-left: 2%;
+	display: inline-block;
+	width: 8%;
+	
+}
+
+.navigation_tabs{
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: 50px;
+
+}
+
+
+.navigation_tabs a{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav_bar{
+	background-color: #FFF;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}

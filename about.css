@@ -1,0 +1,246 @@
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+
+
+#logo{
+	margin-top:2%;
+	margin-left: 2%;
+	display: inline-block;
+	width: 8%;
+	
+}
+
+.navigation_tabs{
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: 50px;
+
+}
+
+.navigation_tabs a{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav_bar{
+	background-color: #FFF;
+	z-index: 1;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+}
+
+.introduction{
+	font-family: "Josefin Slab";
+	margin-top: 250px;
+	margin-bottom: 3%;
+	font-size: 50px;
+}
+
+
+
+
+.icons{
+	width: 40%;
+}
+
+.icons_travel{
+	width: 10%;
+}
+
+.text{
+	display: none;
+	font-size: 35px;
+	position: absolute;
+}
+
+
+#for_calligraphy, #for_yoga, #for_cello,  #for_dance{
+	transform: scale(0.95);
+}
+
+
+#for_calligraphy{
+	border-radius: 20px;
+	background-color: #CEFFE2;
+	transition: transform 0.2s;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#for_calligraphy:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+#for_calligraphy:hover > .text{
+	display: block;
+}
+
+
+
+
+
+#for_yoga{
+	border-radius: 20px;
+	background-color: #C6F1FF;
+	transition: transform 0.2s;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#for_yoga:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+#for_yoga:hover > .text{
+	display: block;
+}
+
+
+
+
+
+#for_cello{
+	border-radius: 20px;
+	background-color: #FFEBAE;
+	transition: transform 0.2s;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#for_cello:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+#for_cello:hover > .text{
+	display: block;
+}
+
+
+
+
+
+#for_travel{
+	border-radius: 20px;
+	background-color: #FFA3A3;
+	transition: transform 0.2s;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 8px;
+}
+
+#for_travel:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+	z-index:1;
+}
+
+#for_travel:hover > .text{
+	display: block;
+}
+
+
+
+
+
+#for_dance{
+	border-radius: 20px;
+	background-color: #F3D1FF;
+	transition: transform 0.2s;
+}
+
+#for_dance:hover{
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+#for_dance:hover > .text{
+	display: block;
+}
+
+
+
+
+
+.carousel_container{
+	margin-top: 200px;
+	right: 5px;
+}
+
+
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left;
+}
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%;
+}
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .next {
+  left: 33%;
+}
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out all;
+    -webkit-backface-visibility: visible;
+            backface-visibility: visible;
+    -webkit-transform: none!important;
+            transform: none!important;
+  }
+}
+.multi-item-carousel .carouse-control.left,
+.multi-item-carousel .carouse-control.right {
+  background-image: none;
+}
+
+
+.dropdown{
+	display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 100px;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border-left: 1px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+

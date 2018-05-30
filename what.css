@@ -1,0 +1,288 @@
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+/*
+.top{
+	width:100px;
+	height: 100px;
+	background-color: white;
+}
+*/
+
+#logo{
+	margin-top:2%;
+	margin-left: 2%;
+	display: inline-block;
+	width: 8%;
+	
+}
+
+.navigation_tabs{
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: 50px;
+
+}
+
+
+.navigation_tabs a{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav_bar{
+	background-color: #FFF;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+
+.introduction{
+	font-family: "Josefin Slab";
+	font-size: 50px;
+	margin-top: 250px;
+	margin-bottom: 200px;
+	letter-spacing: 3px;
+	line-height: 1.6;
+}
+
+.cs{
+	color: #66A2F3;
+}
+
+.d{
+	color: #FE9A9A;
+}
+
+.uiux{
+	color: #85FCB7;
+}
+
+
+#project_title{
+	font-family: "Josefin Slab";
+	font-size: 60px;
+	padding-top: 190px;
+	margin-bottom: 50px;
+}
+
+.prior{
+	transition: transform 0.2s;
+}
+
+.image_container{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.pink{
+	background-color: #F9CBCB;
+}
+
+.grey{
+	background-color: #F2F2F2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.prior:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+#clock{
+	width: 15%;
+	margin: 0 auto;
+	display: block;
+}
+
+.telesto, .unknot, .purein, .slick{
+	transition: transform 0.2s;
+	margin-top: 40px;
+}
+
+.purein, .slick{
+	margin-bottom: 100px;
+}
+
+.telesto:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.blue{
+	background-color: #B8E1EF;
+}
+
+#calendar{
+	width: 28%;
+	margin: 0 auto;
+	display: block;
+}
+
+
+
+
+.unknot:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.green{
+	background-color: #B5E3C8;
+}
+
+#yarn{
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+	
+}
+
+
+
+
+
+.purein:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.yellow{
+	background-color: #FFEEB9;
+}
+
+#compass{
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+}
+
+
+.slick:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.purple{
+	background-color: #ECBAFF;
+}
+
+#desk{
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+}
+
+@media (max-width: 576px){
+	.introduction {
+		font-size: 30px;
+		margin-left: 15%;
+		margin-top: 250px;
+		letter-spacing: 3px;
+		line-height: 1.6;
+	}
+
+	.project_title{
+		font-size: 30px;
+	}
+}
+
+
+
+/*scroll stuff*/
+
+
+#section02 a {
+  padding-top: 60px;
+}
+
+/* CIRCLE AROUND ARROW
+#section02 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid black;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+*/
+
+#section02 a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.demo a {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: black;
+  font : normal 400 20px/1 'Josefin Sans', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.demo a:hover {
+  opacity: .5;
+}
+
+
+.dropdown{
+	display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 100px;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border-left: 1px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
