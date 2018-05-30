@@ -339,7 +339,7 @@ a:hover{
 .myText {
 	display:none;
 	font-size: 23px;
-	text-align: justify;
+	text-align: center;
 	padding-top: 15px;
 	width: 100%;
 }
