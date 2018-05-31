@@ -47,8 +47,8 @@ a:hover{
 
 .nav_bar{
 	background-color: #FFF;
-	z-index: 1;
-	position: fixed;
+	z-index: 2;
+	position: fixed !important;
 	top: 0;
 	width: 100%;
 }
@@ -232,7 +232,7 @@ a:hover{
 
 #section02 a span::after {
   position: absolute;
-  top: 50%;
+  
   left: 50%;
   content: '';
   width: 16px;
