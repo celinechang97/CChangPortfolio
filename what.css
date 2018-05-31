@@ -54,33 +54,11 @@ a:hover{
 }
 
 
-.introduction{
-	font-family: "Josefin Slab";
-	font-size: 50px;
-	margin-top: 250px;
-	margin-bottom: 200px;
-	letter-spacing: 3px;
-	line-height: 1.6;
-}
-
-.cs{
-	color: #66A2F3;
-}
-
-.d{
-	color: #FE9A9A;
-}
-
-.uiux{
-	color: #85FCB7;
-}
-
-
 #project_title{
 	font-family: "Josefin Slab";
 	font-size: 60px;
-	padding-top: 190px;
 	margin-bottom: 50px;
+	margin-top: 200px;
 }
 
 .prior{
@@ -229,7 +207,7 @@ a:hover{
   box-sizing: border-box;
 }
 */
-
+/*
 #section02 a span::after {
   position: absolute;
   
@@ -260,7 +238,7 @@ a:hover{
 .demo a:hover {
   opacity: .5;
 }
-
+*/
 
 .dropdown{
 	display: inline-block;

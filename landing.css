@@ -1,0 +1,101 @@
+body {
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+}
+
+a:visited{
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+}
+
+/*
+.top{
+	width:100px;
+	height: 100px;
+	background-color: white;
+}
+*/
+
+#logo{
+	margin-top:2%;
+	margin-left: 2%;
+	display: inline-block;
+	width: 8%;
+	
+}
+
+.navigation_tabs{
+	float: right;
+	display: inline-block;
+	font-size: 20px;
+	margin-right: 100px;
+	margin-top: 50px;
+
+}
+
+
+.navigation_tabs a{
+	display: inline-block;
+	padding-right: 50px;
+}
+
+.nav_bar{
+	background-color: #FFF;
+	z-index: 2;
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+}
+
+
+.introduction{
+	font-family: "Josefin Slab";
+	font-size: 50px;
+	margin-top: 250px;
+	margin-bottom: 350px;
+	letter-spacing: 3px;
+	line-height: 1.6;
+}
+
+.cs{
+	color: #66A2F3;
+}
+
+.d{
+	color: #FE9A9A;
+}
+
+.uiux{
+	color: #85FCB7;
+}
+
+.dropdown{
+	display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    min-width: 100px;
+    z-index: 1;
+    position: absolute;
+    background-color: white;
+    border-left: 1px solid black;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

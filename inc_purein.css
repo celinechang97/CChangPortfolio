@@ -48,7 +48,7 @@ a:hover{
 
 .nav_bar{
 	background-color: #FFF;
-	z-index: 2;
+	z-index: 1;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -57,7 +57,7 @@ a:hover{
 .title{
 	font-family: "Josefin Slab";
 	font-size: 80px;
- 	letter-spacing: 3px;
+	letter-spacing: 3px;
 	line-height: 1.6;
 }
 
@@ -83,17 +83,17 @@ a:hover{
 	width: 27%;
 }
 
-#yarn{
-	width: 15%;
-	vertical-align: sub;
-}
-
-#yarn_final{
-	width:7%;
+#compass{
+	width: 8%;
 	vertical-align: text-bottom;
 }
 
-#green_sq{
+#compass_final{
+	width:4%;
+	vertical-align: text-bottom;
+}
+
+#yellow_sq{
 	width: 60%;
 	position: absolute;
 	top: -100px;
@@ -102,34 +102,34 @@ a:hover{
 }
 
 @media (max-width: 1200px){
-	#green_sq{
+	#yellow_sq{
 	left: 160px;
 	top: -80px;
 	}
 }
 
 @media (max-width: 1010px){
-	#green_sq{
+	#yellow_sq{
 	left: 150px;
 	}
 }
 
 @media (max-width: 991px){
-	#green_sq{
+	#yellow_sq{
 	left: 110px;
 	top: -60px;
 	}
 }
 
 @media (max-width: 767px){
-	#green_sq{
+	#yellow_sq{
 	left: 80px;
 	top: -40px;
 	}
 }
 
 @media (max-width: 460px){
-	#green_sq{
+	#yellow_sq{
 	left: 60px;
 	top: -30px;
 	}
@@ -139,6 +139,7 @@ a:hover{
 	position: relative;
 	z-index: 1;
 }
+
 .goal{
 	float:right;
 }
@@ -242,12 +243,14 @@ a:hover{
 }
 
 #prototype{
-	width: 43%;
+	width: 25%;
 	margin-right: 5%;
 }
 
 .prototype_img{
-	margin-top: 290px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 13%;
 }
 
 
@@ -297,19 +300,15 @@ a:hover{
 	cursor: pointer;
 }
 
-.prior, .telesto, .purein, .slick{
+.prior, .telesto, .unknot, .slick{
 	margin-top: 10px;
 }
 
-#clock, #calendar, #compass, #desk{
+#clock, #calendar, #yarn, #desk{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
 	
-}
-
-.yellow{
-	background-color: #FFEEB9;
 }
 
 .purple{
@@ -324,13 +323,18 @@ a:hover{
 	background-color: #BFD1F2;
 }
 
+.green{
+	background-color: #B5E3C8;
+}
+
 .description{
 	font-size: 25px;
 	text-align: center;
 }
 
 .mySlides {
-	margin: 0 auto;
+	display:none
+	margin-left: 50%;
 }
 
 .myText {
