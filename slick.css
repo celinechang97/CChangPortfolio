@@ -1,5 +1,6 @@
 body {
 	font-family: "Open Sans Condensed", sans-serif;
+	letter-spacing: 0.5px;
 }
 
 a:-webkit-any-link {
@@ -144,14 +145,14 @@ a:hover{
 	float:right;
 }
 
-.keys{
+.keys, .reqs{
 	text-align: right;
 	font-size: 24px;
 	margin-top: 30px;
 	line-height: 1.8;
 }
 
-.values{
+.values, .desc{
 	font-size: 24px;
 	margin-top: 30px;
 	line-height: 1.8;
@@ -175,7 +176,6 @@ a:hover{
 .how_we_started_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .how_we_started_content{
@@ -184,24 +184,22 @@ a:hover{
 	text-align: justify;
 }
 
-#busy_students{
-	margin-top: 100px;
+#envi{
+	margin-top: 130px;
 	float:right;
-	width: 60%;
+	width: 45%;
 	margin-right: 20%;
 }
 
 
 
-
 .interviews_observations{
-	margin-top: 130px;
+	margin-top: 180px;
 }
 
 .interviews_observations_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .interviews_observations_content{
@@ -211,29 +209,25 @@ a:hover{
 }
 
 .io_emphasis{
-	font-size: 35px;
-	text-align: left;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	font-style: italic;
 }
 
 #interviews{
-	margin-top: 150px;
-	margin-left: %;
+	margin-top: 200px;
 	width: 45%;
+	border-radius: 10px;
 }
 
 
 
 
 .prototyping{
-	margin-top: 150px;
+	margin-top: 200px;
 }
 
 .prototyping_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .prototyping_content{
@@ -249,6 +243,7 @@ a:hover{
 	margin-top: 50px;
 	width:20%;
 	margin-right: 20px;
+	border-radius: 10px;
 }
 
 #prototype_other{
@@ -256,6 +251,7 @@ a:hover{
 	width:20%;
 	height: 230px;
 	margin-right: 20px;
+	border-radius: 10px;
 }
 
 
@@ -271,7 +267,16 @@ a:hover{
 .final_design_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
+	margin-bottom: 50px;
+}
+
+.final_img{
+	width: 40%;
+	border-radius: 40px;
+}
+
+.final_description{
+	margin-top: 50px;
 }
 
 .start{
