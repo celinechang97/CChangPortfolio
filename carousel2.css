@@ -1,0 +1,15 @@
+.modal{ /*entire area around it */
+	display: none;
+	position: fixed;
+	z-index: 1;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: auto;
+	background-color: #fff;
+	opacity: 0.9;
+}
+
+.modal-content{
+	margin: 5%;
+}
