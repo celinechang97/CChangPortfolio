@@ -174,7 +174,6 @@ a:hover{
 .how_we_started_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .how_we_started_content{
@@ -183,10 +182,10 @@ a:hover{
 	text-align: justify;
 }
 
-#busy_students{
-	margin-top: 100px;
+#writing{
+	margin-top: 150px;
 	float:right;
-	width: 60%;
+	width: 50%;
 	margin-right: 20%;
 }
 
@@ -200,7 +199,6 @@ a:hover{
 .interviews_observations_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .interviews_observations_content{
@@ -226,13 +224,12 @@ a:hover{
 
 
 .prototyping{
-	margin-top: 150px;
+	margin-top: 180px;
 }
 
 .prototyping_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .prototyping_content{
@@ -244,6 +241,7 @@ a:hover{
 #prototype{
 	width: 43%;
 	margin-right: 5%;
+	border-radius: 10px;
 }
 
 .prototype_img{
@@ -259,14 +257,13 @@ a:hover{
 
 
 .final_design{
-	margin-top: 100px;
+	margin-top: 180px;
 	margin-bottom: 30px;
 }
 
 .final_design_title{
 	font-size: 40px;
 	display: inline-block;
-	margin-left: 1%;
 }
 
 .start{
@@ -356,6 +353,7 @@ a:hover{
 .slidee{
 	margin-left: 13.5%;
 	margin-right: 10%;
+	margin-bottom: 250px;
 }
 
 
