@@ -57,14 +57,18 @@ a:hover{
 }
 
 .contact_icons{
-	margin-left: 15%;
+	margin-left: 22%;
 	margin-top: 100px;
 }
 
+.big_icon{
+	display: inline-block;
+	margin-left: -10%;
+}
+
 .icon{
-	width: 7%;
+	width: 35%;
 	border-radius: 20px;
-	margin-right: 5%;
 	transition: transform .2s;
 }
 
