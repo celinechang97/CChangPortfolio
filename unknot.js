@@ -13,6 +13,8 @@ function showDivs(n) {
   var i;
   var x = document.getElementsByClassName("mySlides");
   var y = document.getElementsByClassName("myText");
+  var dots = document.getElementsByClassName("demo");
+
 
   if (n > x.length) {slideIndex = 1}   
 
@@ -26,7 +28,12 @@ function showDivs(n) {
      y[i].style.display = "none";
   }
 
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+
   x[slideIndex-1].style.display = "block"; 
   y[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " w3-white";
 
 }
