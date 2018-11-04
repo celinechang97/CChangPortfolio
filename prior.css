@@ -81,16 +81,39 @@ hr{
 	display: inline-block;
 }
 
+
+.prior:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
 #summary1{
 	width: 32%;
 	margin-right: 1.5%;
 }
+
+#summary1:hover{
+	transform: scale(1.8);
+	transition: transform 0.5s;
+}
+
 #summary2{
 	width: 32%;
 	margin-right: 1.5%;
 }
+
+#summary2:hover{
+	transform: scale(1.8);
+	transition: transform 0.5s;
+}
+
 #summary3{
 	width: 32%;
+}
+
+#summary3:hover{
+	transform: scale(1.8);
+	transition: transform 0.5s;
 }
 
 #clock{

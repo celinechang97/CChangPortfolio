@@ -72,15 +72,28 @@ a:hover{
 }
 
 #summary1{
-	width: 27%;
-	margin-right: 5%;
+	width: 37%;
+	margin-right: -5%;
+}
+#summary1:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 #summary2{
-	width: 27%;
-	margin-right: 5%;
+	width: 37%;
+	margin-right: -5%;
+}
+#summary2:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 #summary3{
-	width: 27%;
+	width: 37%;
+	margin-right: -13%;
+}
+#summary3:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 
 #yarn{
@@ -137,7 +150,6 @@ a:hover{
 
 .keys strong{
 	position: relative;
-	z-index: 1;
 }
 .goal{
 	float:right;
@@ -346,7 +358,7 @@ a:hover{
 }
 
 .w3-display-bottommiddle{
-	top: 520;
+	top: 530;
 }
 
 

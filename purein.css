@@ -20,9 +20,7 @@ a:hover{
 }
 
 .title_row{
-	text-align: center;
-	margin-top: 200px;
-	font-size: 100px;
+	margin-top: 150px;
 }
 
 #logo{
@@ -50,7 +48,7 @@ a:hover{
 
 .nav_bar{
 	background-color: #FFF;
-	z-index: 2;
+	z-index: 1;
 	position: fixed;
 	top: 0;
 	width: 100%;
@@ -70,19 +68,31 @@ a:hover{
 
 .summary_img{
 	margin-top: 50px;
-	margin-left: 5%;
+	margin-left: 15%;
 }
 
 #summary1{
-	width: 27%;
+	width: 23%;
 	margin-right: 5%;
+}
+#summary1:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 #summary2{
-	width: 27%;
+	width: 23%;
 	margin-right: 5%;
 }
+#summary2:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
+}
 #summary3{
-	width: 27%;
+	width: 23%;
+}
+#summary3:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 
 #compass{
@@ -139,7 +149,7 @@ a:hover{
 
 .keys strong{
 	position: relative;
-	z-index: 1;
+	
 }
 
 .goal{
@@ -186,11 +196,26 @@ a:hover{
 	text-align: justify;
 }
 
-#busy_students{
-	margin-top: 100px;
-	float:right;
-	width: 60%;
-	margin-right: 20%;
+#gm{
+	margin-top: 210px;
+	margin-left: 20px;
+
+}
+
+#pace{
+	margin-left: 20px;
+
+}
+
+#fmlm{
+	margin-top: 40px;
+	width: 100%;
+	margin-left: 20px;
+}
+
+#map{
+	margin-top: 40px;
+	width: 130%;
 }
 
 
@@ -246,13 +271,21 @@ a:hover{
 
 #prototype{
 	width: 25%;
-	margin-right: 5%;
+	margin-left: 4%;
+}
+
+#prototype-side{
+	margin-top: -5%;
+	width: 25%;
+	transform: rotate(270deg);
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 .prototype_img{
 	margin-top: 50px;
 	margin-bottom: 50px;
-	margin-left: 13%;
+	margin-left: 7%;
 }
 
 
@@ -335,18 +368,29 @@ a:hover{
 }
 
 .mySlides {
-	display:none
-	margin-left: 50%;
+	margin: 0 auto;
+	width: 150%;
 }
 
 .myText {
 	display:none;
 	font-size: 23px;
-	text-align: justify;
+	text-align: center;
 	padding-top: 15px;
+	width: 100%;
 }
 
-.w3-left, .w3-right {cursor:pointer}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0px;
+}
+
+.w3-display-bottommiddle{
+	top: 470;
+}
 
 .w3-hover-text-grey{
 	font-size: 40px;
@@ -362,6 +406,7 @@ a:hover{
 .slidee{
 	margin-left: 13.5%;
 	margin-right: 10%;
+	margin-bottom: 250px;
 }
 
 

@@ -73,15 +73,30 @@ a:hover{
 }
 
 #summary1{
-	width: 27%;
-	margin-right: 5%;
+	width: 38%;
+	margin-right: -10%;
 }
+#summary1:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
+}
+
 #summary2{
-	width: 27%;
-	margin-right: 5%;
+	width: 38%;
+	margin-right: -10%;
 }
+#summary2:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
+}
+
 #summary3{
-	width: 27%;
+	width: 38%;
+	margin-right: -8%;
+}
+#summary3:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 
 #calendar{
@@ -138,7 +153,6 @@ a:hover{
 
 .keys strong{
 	position: relative;
-	z-index: 1;
 }
 
 .goal{
@@ -351,7 +365,7 @@ a:hover{
 }
 
 .w3-display-bottommiddle{
-	top: 520;
+	top: 530;
 }
 
 .w3-hover-text-grey{

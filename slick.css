@@ -75,13 +75,28 @@ a:hover{
 #summary1{
 	width: 32%;
 	margin-right: 1.5%;
+	border-radius: 30px;
+}
+#summary1:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 #summary2{
 	width: 32%;
 	margin-right: 1.5%;
+	border-radius: 30px;
+}
+#summary2:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 #summary3{
 	width: 32%;
+	border-radius: 30px;
+}
+#summary3:hover{
+	transform: scale(1.2);
+	transition: transform 0.5s;
 }
 
 #desk{
