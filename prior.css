@@ -362,7 +362,7 @@ hr{
 	display:none;
 	font-size: 23px;
 	text-align: justify;
-	padding-top: 15px;
+	padding-top: 0px;
 }
 
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
@@ -374,7 +374,7 @@ hr{
 }
 
 .w3-display-bottommiddle{
-	top: 400;
+	top: 480;
 }
 .w3-hover-text-grey{
 	font-size: 40px;
