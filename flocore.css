@@ -403,11 +403,11 @@ hr{
 	cursor: pointer;
 }
 
-.telesto, .unknot, .purein, .slick{
+.telesto, .prior, .purein, .slick{
 	margin-top: 10px;
 }
 
-#calendar, #yarn, #compass, #desk{
+#calendar, #clock, #compass, #desk{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
@@ -418,8 +418,8 @@ hr{
 	background-color: #B8E1EF;
 }
 
-.green{
-	background-color: #B5E3C8;
+.pink{
+	background-color: #F9CBCB;
 }
 
 .yellow{

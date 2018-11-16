@@ -78,8 +78,16 @@ a:hover{
 	background-color: #F2F2F2;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	text-align: center;
+	text-align: left;
 	font-size: 25px;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
+.explanation{
+	font-size: 18px;
+	display: inline-block;
+	font-style: italic;
 }
 
 .prior:hover {
@@ -93,12 +101,12 @@ a:hover{
 	display: block;
 }
 
-.telesto, .unknot, .purein, .slick{
+.telesto, .flocore, .purein, .slick{
 	transition: transform 0.2s;
 	margin-top: 40px;
 }
 
-.purein, .slick{
+.telesto, .slick{
 	margin-bottom: 100px;
 }
 
@@ -120,7 +128,7 @@ a:hover{
 
 
 
-.unknot:hover {
+.flocore:hover {
 	transform: scale(1.05);
 	cursor: pointer;
 }

@@ -227,8 +227,15 @@ a:hover{
 	font-style: italic;
 }
 
-#interviews{
-	margin-top: 200px;
+#interviews1{
+	margin-top: 150px;
+	width: 45%;
+	border-radius: 10px;
+}
+
+#interviews2{
+	margin-top: 350px;
+	margin-left: 9px;
 	width: 45%;
 	border-radius: 10px;
 }
@@ -322,7 +329,7 @@ a:hover{
 	cursor: pointer;
 }
 
-.telesto, .unknot, .purein, .prior{
+.telesto, .flocore, .purein, .prior{
 	margin-top: 10px;
 }
 

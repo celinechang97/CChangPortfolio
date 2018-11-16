@@ -281,7 +281,6 @@ a:hover{
 
 .prototype_img{
 	margin-top: 50px;
-	margin-bottom: 50px;
 	margin-left: 7%;
 }
 
@@ -331,7 +330,7 @@ a:hover{
 	cursor: pointer;
 }
 
-.prior, .telesto, .unknot, .slick{
+.prior, .telesto, .flocore, .slick{
 	margin-top: 10px;
 }
 
