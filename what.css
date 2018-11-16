@@ -101,6 +101,18 @@ a:hover{
 	display: block;
 }
 
+.pink #clock{
+	transition: opacity .5s linear;
+}
+
+.pink:hover > #clock{
+	opacity: 0;
+}
+
+.pink:hover{
+	background-image: url("what_prior.png");
+}
+
 .telesto, .flocore, .purein, .slick{
 	transition: transform 0.2s;
 	margin-top: 40px;
@@ -125,6 +137,17 @@ a:hover{
 	display: block;
 }
 
+.blue #calendar{
+	transition: opacity .5s linear;
+}
+
+.blue:hover > #calendar{
+	opacity: 0;
+}
+
+.blue:hover{
+	background-image: url("what_telesto.png");
+}
 
 
 
@@ -137,11 +160,23 @@ a:hover{
 	background-color: #B5E3C8;
 }
 
-#yarn{
+#ar{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
 	
+}
+
+.green #ar{
+	transition: opacity .5s linear;
+}
+
+.green:hover > #ar{
+	opacity: 0;
+}
+
+.green:hover{
+	background-image: url("flocore_menu2.png");
 }
 
 
@@ -157,12 +192,23 @@ a:hover{
 	background-color: #FFEEB9;
 }
 
+.yellow #compass{
+	transition: opacity .5s linear;
+}
+
+.yellow:hover > #compass{
+	opacity: 0;
+}
+
+.yellow:hover{
+	background-image: url("what_purein.png");
+}
+
 #compass{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
 }
-
 
 .slick:hover {
 	transform: scale(1.05);
@@ -177,6 +223,18 @@ a:hover{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
+}
+
+.purple #desk{
+	transition: opacity .5s linear;
+}
+
+.purple:hover > #desk{
+	opacity: 0;
+}
+
+.purple:hover{
+	background-image: url("what_slick.png");
 }
 
 @media (max-width: 576px){
