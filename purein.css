@@ -293,7 +293,7 @@ a:hover{
 
 
 .final_design{
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-bottom: 30px;
 }
 
@@ -302,8 +302,20 @@ a:hover{
 	display: inline-block;
 }
 
+
+#final_content{
+	width:100%;
+	margin-bottom: 15%;
+}
+
+
+
+
+
+
+
 .start{
-	margin-top: 150px;
+	margin-top: 50px;
 }
 
 .more_projects{
@@ -334,7 +346,7 @@ a:hover{
 	margin-top: 10px;
 }
 
-#clock, #calendar, #yarn, #desk{
+#clock, #calendar, #ar, #desk{
 	width: 30%;
 	margin: 0 auto;
 	display: block;

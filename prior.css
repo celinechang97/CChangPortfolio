@@ -274,11 +274,38 @@ hr{
 }
 
 #prototype{
-	margin-top: 270px;
-	float:right;
-	width: 90%;
+	margin-top: 170px;
+	width: 55%;
 	border-radius: 10px;
+	margin-left: 25%;
+
 }
+#prototype:hover{
+	transform: scale(1.5);
+	transition: transform 0.3s;
+}
+
+#prototype3{
+	margin-top: 10px;
+	width: 75%;
+	border-radius: 10px;
+	margin-left: 15%;
+}
+#prototype3:hover{
+	transform: scale(1.5);
+	transition: transform 0.3s;
+}
+
+#prototype4{
+	margin-top: 10px;
+	width: 55%;
+	border-radius: 10px;
+	margin-left: 25%;
+}#prototype4:hover{
+	transform: scale(1.5);
+	transition: transform 0.3s;
+}
+
 
 
 
@@ -296,8 +323,19 @@ hr{
 	display: inline-block;
 }
 
+#final_content{
+	width: 115%;
+	padding-right: 10%;
+	margin-bottom: 10%;
+}
+
+
+
+
+
+
 .start{
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 .more_projects{
@@ -328,7 +366,7 @@ hr{
 	margin-top: 10px;
 }
 
-#calendar, #yarn, #compass, #desk{
+#calendar, #ar, #compass, #desk{
 	width: 30%;
 	margin: 0 auto;
 	display: block;
