@@ -170,7 +170,7 @@ hr{
 
 .keys strong{
 	position: relative;
-	z-index: 1;
+	
 }
 
 .goal{
@@ -199,7 +199,18 @@ hr{
 	height: 35px;
 }
 
+.how{
+	color: #ff7373;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
+}
 
+.emph{
+	display: inline-block;
+	color: #6B95DF;
+}
 
 .how_we_started{
 	margin-top: 130px;
@@ -280,10 +291,7 @@ hr{
 	margin-left: 25%;
 
 }
-#prototype:hover{
-	transform: scale(1.5);
-	transition: transform 0.3s;
-}
+
 
 #prototype3{
 	margin-top: 10px;
@@ -291,19 +299,13 @@ hr{
 	border-radius: 10px;
 	margin-left: 15%;
 }
-#prototype3:hover{
-	transform: scale(1.5);
-	transition: transform 0.3s;
-}
+
 
 #prototype4{
 	margin-top: 10px;
 	width: 55%;
 	border-radius: 10px;
 	margin-left: 25%;
-}#prototype4:hover{
-	transform: scale(1.5);
-	transition: transform 0.3s;
 }
 
 

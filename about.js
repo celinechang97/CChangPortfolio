@@ -1,5 +1,5 @@
 var modalCali = document.getElementById('simpleModalCali');
-var modalBtnCali = document.getElementById('modalBtnCali');
+var modalBtnCali = document.getElementById('for_calligraphy');
 
 modalBtnCali.addEventListener('click', openModalCali);
 
@@ -22,7 +22,7 @@ function outsideClickCali(e){
 
 
 var modalYoga = document.getElementById('simpleModalYoga');
-var modalBtnYoga = document.getElementById('modalBtnYoga');
+var modalBtnYoga = document.getElementById('for_yoga');
 
 modalBtnYoga.addEventListener('click', openModalYoga);
 
@@ -45,7 +45,7 @@ function outsideClickYoga(e){
 
 
 var modalCello = document.getElementById('simpleModalCello');
-var modalBtnCello = document.getElementById('modalBtnCello');
+var modalBtnCello = document.getElementById('for_cello');
 
 modalBtnCello.addEventListener('click', openModalCello);
 
@@ -68,7 +68,7 @@ function outsideClickCello(e){
 
 
 var modalTravel = document.getElementById('simpleModalTravel');
-var modalBtnTravel = document.getElementById('modalBtnTravel');
+var modalBtnTravel = document.getElementById('for_travel');
 
 modalBtnTravel.addEventListener('click', openModalTravel);
 
@@ -91,7 +91,7 @@ function outsideClickTravel(e){
 
 
 var modalDance = document.getElementById('simpleModalDance');
-var modalBtnDance = document.getElementById('modalBtnDance');
+var modalBtnDance = document.getElementById('for_dance');
 
 modalBtnDance.addEventListener('click', openModalDance);
 
