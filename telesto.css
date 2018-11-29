@@ -214,10 +214,15 @@ a:hover{
 #mindful{
 	margin-top: 160px;
 	float:right;
-	width: 45%;
+	width: 40%;
 	margin-right: 20%;
 }
 
+@media (max-width: 1200px){
+	#mindful{
+	margin-top:210px;
+	}
+}
 
 
 
@@ -248,6 +253,13 @@ a:hover{
 	margin-top: 200px;
 	width: 90%;
 	border-radius: 10px;
+}
+
+@media (max-width: 1200px){
+	#interviews{
+	width: 100%;
+	margin-top: 250px;
+	}
 }
 
 
@@ -302,6 +314,29 @@ a:hover{
 	margin-bottom: 10%;
 }
 
+#final_content3{
+	width:100%;
+	margin-bottom: 10%;
+	margin-top: -5%;
+}
+
+
+
+.takeaway{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.takeaway_title{
+	font-size: 40px;
+	display: inline-block;
+}
+
+.takeaway_content{
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 15%;
+}
 
 
 .start{
