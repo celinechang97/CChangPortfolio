@@ -6,6 +6,10 @@ a:-webkit-any-link {
 	text-decoration: none;
 }
 
+a{
+	color: black;
+}
+
 a:visited{
 	color: black;
 }
